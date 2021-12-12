@@ -61,6 +61,11 @@ public class SmudPayment {
 			payornot = "no";
 			break;
 		}
+		while(smudBill>0) {
+			System.out.println("The bill generarated and amout is $"+ smudBill+"\r\n"+page.dueDate.getText());
+			payornot = "yes";
+			break;
+		}
 
 		while(smudBill>100) {
 			System.out.println("The bill generarated and amout is more than $100:  $"+ smudBill+"\r\n"+page.dueDate.getText());

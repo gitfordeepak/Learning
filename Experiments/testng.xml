@@ -4,8 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="smudTestCases.Smud"/>
-<!--       <class name="amazonTestCases.NewTest"/> -->
-<!--       <class name=".TestClass"/> -->
       <class name="amazonTestCases.Amazon"/>
     </classes>
   </test> <!-- Test -->
