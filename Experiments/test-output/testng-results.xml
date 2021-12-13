@@ -1,17 +1,651 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="41" passed="41">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-05T14:25:27 PDT" name="Default suite" finished-at="2021-09-05T14:25:27 PDT" duration-ms="50">
+  <suite name="Suite" duration-ms="130779" started-at="2021-12-08T21:00:38 PST" finished-at="2021-12-08T21:02:49 PST">
     <groups>
     </groups>
-    <test started-at="2021-09-05T14:25:27 PDT" name="Default test" finished-at="2021-09-05T14:25:27 PDT" duration-ms="50">
-      <class name="TestClass">
-        <test-method signature="test()[pri:0, instance:TestClass@87a85e1]" started-at="2021-09-05T14:25:27 PDT" name="test" finished-at="2021-09-05T14:25:27 PDT" duration-ms="7" status="PASS">
+    <test name="Test" duration-ms="130779" started-at="2021-12-08T21:00:38 PST" finished-at="2021-12-08T21:02:49 PST">
+      <class name="amazonTestCases.Amazon">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:amazonTestCases.Amazon@45afc369]" name="beforeClass" is-config="true" duration-ms="1917" started-at="2021-12-08T21:01:06 PST" finished-at="2021-12-08T21:01:08 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- TestClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="signIn()[pri:1, instance:amazonTestCases.Amazon@45afc369]" name="signIn" duration-ms="17772" started-at="2021-12-08T21:01:08 PST" finished-at="2021-12-08T21:01:25 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="6060" started-at="2021-12-08T21:01:27 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:33 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Action Camera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="4982" started-at="2021-12-08T21:01:33 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:38 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple watch series ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apple watch series 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="5181" started-at="2021-12-08T21:01:38 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:43 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung watch ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="5301" started-at="2021-12-08T21:01:43 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:48 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applewatch SE case]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="5233" started-at="2021-12-08T21:01:48 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applewatch SE case with straph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="1" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="9" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="4" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="1" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProduct" duration-ms="0" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:01:54 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="8820" started-at="2021-12-08T21:01:54 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:03 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Action Camera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="6713" started-at="2021-12-08T21:02:03 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:09 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple watch series ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apple watch series 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="8796" started-at="2021-12-08T21:02:09 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:18 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung watch ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="8690" started-at="2021-12-08T21:02:18 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:27 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applewatch SE case]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="9682" started-at="2021-12-08T21:02:27 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Applewatch SE case with straph]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="0" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="0" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="0" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="0" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="16" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="0" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="0" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="1" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="4" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="1" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="2" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="1" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="1" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="searchProductwithSuggestion(java.lang.String,java.lang.String)[pri:2, instance:amazonTestCases.Amazon@45afc369]" name="searchProductwithSuggestion" duration-ms="1" started-at="2021-12-08T21:02:36 PST" data-provider="dataFromSheet" finished-at="2021-12-08T21:02:36 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductwithSuggestion -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:amazonTestCases.Amazon@45afc369]" name="afterClass" is-config="true" duration-ms="12206" started-at="2021-12-08T21:02:36 PST" finished-at="2021-12-08T21:02:49 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- amazonTestCases.Amazon -->
+      <class name="smudTestCases.Smud">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:smudTestCases.Smud@76a4d6c]" name="startDriver" is-config="true" duration-ms="9706" started-at="2021-12-08T21:00:38 PST" finished-at="2021-12-08T21:00:48 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="CheckBill()[pri:1, instance:smudTestCases.Smud@76a4d6c]" name="CheckBill" duration-ms="12722" started-at="2021-12-08T21:00:48 PST" finished-at="2021-12-08T21:01:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBill -->
+        <test-method status="PASS" signature="Payment()[pri:2, instance:smudTestCases.Smud@76a4d6c]" name="Payment" duration-ms="431" started-at="2021-12-08T21:01:00 PST" finished-at="2021-12-08T21:01:01 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:smudTestCases.Smud@76a4d6c]" name="closeDriver" is-config="true" duration-ms="4807" started-at="2021-12-08T21:01:01 PST" finished-at="2021-12-08T21:01:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- smudTestCases.Smud -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
